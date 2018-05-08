@@ -1,6 +1,7 @@
 module.exports = {
     title: "jagql",
     description: "NodeJS framework to generate json:api and GraphQL APIs from model definitions",
+    serviceWorker: true,
     themeConfig: {
         repo: 'jagql/framework',
         docsRepo: 'jagql/docs',
