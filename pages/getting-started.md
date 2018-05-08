@@ -41,3 +41,23 @@ jagql.start()
  - You will find **Swagger** docs on <http://localhost:1337/swagger.json>  
  - You will perform **GET**, **POST** etc on <http://localhost:1337/photos>  
  - You will find **GraphiQL** interface on <http://localhost:1337>  
+
+
+
+### Show me a full example!
+
+Fire up an example `json:api` server using the resources mentioned in the official spec via:
+```
+$ git clone https://github.com/jagql/framework.git
+$ npm install
+$ npm start
+```
+then browse to the JSON:API endpoints:
+```
+http://localhost:16006/rest/photos
+```
+or, for GraphQL:
+```
+http://localhost:16006/rest/
+```
+the example implementation can be found [here](https://github.com/jagql/framework/tree/master/example)

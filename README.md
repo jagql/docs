@@ -1,13 +1,12 @@
 ---
+home: true
+heroImage: 'jagql.svg'
 editLink: false
+actionText: 'Get Started →'
+actionLink: '/pages/'
+footer: 'MIT Licensed | Copyright © HolidayExtras, Arnav Gupta'
 ---
-# jagql
-
-A resource driven framework to set up a {json:api} + GraphQL endpoint in record time. 
-
-<center>
-<img src="./img/jagql.svg" width=300>
-</center>
+<Center>
 
 [![Build Status](https://travis-ci.org/jagql/framework.svg?branch=master)](https://travis-ci.org/jagql/framework)
 [![codecov](https://codecov.io/gh/jagql/framework/branch/master/graph/badge.svg)](https://codecov.io/gh/jagql/framework)
@@ -15,11 +14,11 @@ A resource driven framework to set up a {json:api} + GraphQL endpoint in record 
 [![Dependencies Status](https://david-dm.org/jagql/framework.svg)](https://david-dm.org/jagql/framework)
 [![Greenkeeper badge](https://badges.greenkeeper.io/jagql/framework.svg)](https://greenkeeper.io/)
 
-<p align="center">
-  <a href="https://jagql.github.io/framework/">
-    <img src="https://img.shields.io/badge/DOCS-API_REFERENCE-6699ff.svg?longCache=true&style=for-the-badge">
-  </a>
-</p>
+
+[![DOCS API](https://img.shields.io/badge/DOCS-API_REFERENCE-6699ff.svg?longCache=true&style=for-the-badge)](https://jagql.github.io/framework/)
+
+</Center>
+
 
 - - - - - - 
 

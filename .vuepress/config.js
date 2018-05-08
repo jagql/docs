@@ -1,6 +1,6 @@
 module.exports = {
     title: "jagql",
-    description: "NodeJS framework to generate json:api and GraphQL APIs from model definitions",
+    description: "A resource driven NodeJS framework to set up a {json:api} + GraphQL endpoint in record time.",
     serviceWorker: true,
     themeConfig: {
         repo: 'jagql/framework',
@@ -8,9 +8,10 @@ module.exports = {
         editLinks: true,
         editLinkText: 'Improve this documentation',
         nav: [
+            { text: 'Guide', link: '/pages/'}
         ],
         sidebar: [
-            ['/', 'Introduction'],
+            '/pages/',
             '/pages/getting-started.md'
         ]
     },
