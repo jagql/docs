@@ -1,0 +1,21 @@
+{
+  "name": "@jagql/docs",
+  "version": "1.0.0",
+  "description": "Documentation for jagql",
+  "main": "index.js",
+  "repository": "https://github.com/jagql/docs",
+  "author": "Arnav Gupta <arnav@codingblocks.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "clean": "rimraf dist && mkdirp dist",
+    "prebuild": "npm run clean",
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "vuepress": "^0.8.4"
+  }
+}
