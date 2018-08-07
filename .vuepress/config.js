@@ -18,8 +18,8 @@ module.exports = {
                 title: 'Debugging',
                 collapsable: false,
                 children: [
-                    '/pages/metrics.md',
-                    '/pages/logging.md'    
+                    '/pages/debugging/metrics.md',
+                    '/pages/debugging/logging.md'    
                 ]
             }
         ]
