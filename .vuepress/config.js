@@ -15,6 +15,18 @@ module.exports = {
             '/pages/getting-started.md',
             '/pages/configuration.md',
             {
+                title: 'Project Setup',
+                collapsable: false,
+                children: [
+                    '/pages/project_setup/resources.md',
+                    '/pages/project_setup/relationships.md',
+                    '/pages/project_setup/handlers.md',
+                    '/pages/project_setup/chain_handlers.md',
+                    '/pages/project_setup/query_filter.md',
+                    '/pages/project_setup/suggested_structure.md'    
+                ]
+            },
+            {
                 title: 'API Generation',
                 collapsable: false,
                 children: [
@@ -28,6 +40,13 @@ module.exports = {
                 children: [
                     '/pages/debugging/metrics.md',
                     '/pages/debugging/logging.md'    
+                ]
+            },
+            {
+                title: 'Further Reading',
+                collapsable: false,
+                children: [
+                    '/pages/further_reading/migrate_from_express.md',
                 ]
             }
         ]
