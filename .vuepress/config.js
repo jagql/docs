@@ -12,7 +12,9 @@ module.exports = {
         ],
         sidebar: [
             '/pages/',
-            '/pages/getting-started.md'
+            '/pages/getting-started.md',
+            '/pages/configuration.md',
+            '/pages/debugging.md'
         ]
     },
     base: "/docs/",
