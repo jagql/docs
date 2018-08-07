@@ -1,7 +1,11 @@
-
+---
+sidebarDepth: 3
+---
 # Configuration
 
-## Setting the configuration
+## Setup
+
+### Setting the configuration
 
 ```javascript
 jagql.setConfig({
@@ -38,7 +42,7 @@ jagql.setConfig({
 });
 ```
 
-## Configuring HTTPS
+### Configuring HTTPS
 
 To run over HTTPS, set the protocol to _https_ and configure the appropriate TLS settings
 
@@ -72,7 +76,7 @@ jagql.setConfig({
 
 For a full set of tls options, see https://nodejs.org/api/tls.html#tls_tls_createserver_options_secureconnectionlistener
 
-## Error Handling
+### Error Handling
 
 ```javascript
 jagql.onUncaughtException(function(request, error) {
@@ -80,7 +84,7 @@ jagql.onUncaughtException(function(request, error) {
 });
 ```
 
-## Basic Authentication
+### Basic Authentication
 
 ```javascript
 // This function will be invoked on every request, as soon as the HTTP
@@ -94,7 +98,9 @@ jagql.authenticate(function(request, callback) {
 });
 ```
 
-## Starting @jagql/framework
+## Server Events
+
+### Starting @jagql/framework
 
 Note: You should only start the server once you've called `setConfig` as per the example above. Resources can be defined before OR after the server has been started.
 
@@ -102,7 +108,7 @@ Note: You should only start the server once you've called `setConfig` as per the
 jagql.start();
 ```
 
-## Stopping @jagql/framework
+### Stopping @jagql/framework
 
 To gracefully shutdown the service, you can call `.close()`. This will inform all handlers that the server is shutting down, they'll have an opportunity to close any open files or connections, then the HTTP server will stop listening.
 
@@ -110,7 +116,7 @@ To gracefully shutdown the service, you can call `.close()`. This will inform al
 jagql.close();
 ```
 
-## Access internal Express server
+### Access internal Express server
 
 Whilst interfering with the routing layer of @jagql/framework is not recommended (any modifications you make will go against the specification) I can appreciate the needs of businesses and the need to get stuff done. There is therefore an accessor to enable a consumer of @jagql/framework to inject their own custom routes / middleware BEFORE the json:api routes and middleware are applied.
 

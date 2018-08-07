@@ -1,4 +1,4 @@
-# Debugging
+# Application Logs
 
 Debug output is provided by the [debug](https://www.npmjs.com/package/debug) module.
 

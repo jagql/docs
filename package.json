@@ -16,6 +16,6 @@
   "devDependencies": {
     "mkdirp": "^0.5.1",
     "rimraf": "^2.6.2",
-    "vuepress": "^0.8.4"
+    "vuepress": "^0.13.1"
   }
 }

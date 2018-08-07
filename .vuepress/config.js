@@ -14,7 +14,14 @@ module.exports = {
             '/pages/',
             '/pages/getting-started.md',
             '/pages/configuration.md',
-            '/pages/debugging.md'
+            {
+                title: 'Debugging',
+                collapsable: false,
+                children: [
+                    '/pages/metrics.md',
+                    '/pages/logging.md'    
+                ]
+            }
         ]
     },
     base: "/docs/",
