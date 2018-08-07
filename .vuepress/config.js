@@ -15,6 +15,14 @@ module.exports = {
             '/pages/getting-started.md',
             '/pages/configuration.md',
             {
+                title: 'API Generation',
+                collapsable: false,
+                children: [
+                    '/pages/apidocs/swagger.md',
+                    '/pages/apidocs/graphql.md'    
+                ]
+            },
+            {
                 title: 'Debugging',
                 collapsable: false,
                 children: [
