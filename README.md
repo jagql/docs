@@ -3,7 +3,7 @@ home: true
 heroImage: 'jagql.svg'
 editLink: false
 actionText: 'Get Started →'
-actionLink: 'pages/getting-started.html'
+actionLink: '/pages'
 footer: 'MIT Licensed | Copyright © HolidayExtras, Arnav Gupta'
 ---
 <Center>

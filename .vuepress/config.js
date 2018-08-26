@@ -1,7 +1,7 @@
 module.exports = {
     title: "jagql",
     description: "A resource driven NodeJS framework to set up a {json:api} + GraphQL endpoint in record time.",
-    serviceWorker: true,
+    serviceWorker: false,
     themeConfig: {
         repo: 'jagql/framework',
         docsRepo: 'jagql/jagql.github.io',
