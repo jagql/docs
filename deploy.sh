@@ -4,7 +4,7 @@
 set -e
 
 # build
-yarn run build
+npm run build
 
 # navigate into the build output directory
 cd dist
@@ -18,5 +18,5 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:jagql/docs.git master:gh-pages
+git push -f git@github.com:jagql/jagql.github.io.git master
 cd -

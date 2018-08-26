@@ -4,7 +4,7 @@ module.exports = {
     serviceWorker: true,
     themeConfig: {
         repo: 'jagql/framework',
-        docsRepo: 'jagql/docs',
+        docsRepo: 'jagql/jagql.github.io',
         editLinks: true,
         editLinkText: 'Improve this documentation',
         nav: [
@@ -51,7 +51,6 @@ module.exports = {
             }
         ]
     },
-    base: "/docs/",
     port: "3123",
     dest: "dist"
 }
