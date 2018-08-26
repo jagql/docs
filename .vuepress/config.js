@@ -8,7 +8,7 @@ module.exports = {
         editLinks: true,
         editLinkText: 'Improve this documentation',
         nav: [
-            { text: 'Guide', link: '/pages/'}
+            { text: 'Guide', link: '/pages'}
         ],
         sidebar: [
             '/pages/',
@@ -51,7 +51,7 @@ module.exports = {
             }
         ]
     },
-    base: "/docs/",
+    base: "/docs",
     port: "3123",
     dest: "dist"
 }
